@@ -75,7 +75,7 @@ class Info extends Component {
                                 </Tab.Pane>
                                 <Tab.Pane eventKey={"four"}>
                                     <img
-                                        src={BC2}
+                                        src={BC}
                                         className={"d-block w-100 mt-2 InfoImage "}
                                         height={"700"}
                                     />
