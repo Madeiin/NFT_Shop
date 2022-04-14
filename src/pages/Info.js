@@ -7,6 +7,7 @@ import T4 from '../assets/t4.jpg'
 import BW from '../assets/BestWorker.png'
 import BC from '../assets/BestCustomer.png'
 import MP from '../assets/Map.png'
+import BC2 from '../assets/BestCustomer2.jpg'
 class Info extends Component {
     render() {
         return (
@@ -74,7 +75,7 @@ class Info extends Component {
                                 </Tab.Pane>
                                 <Tab.Pane eventKey={"four"}>
                                     <img
-                                        src={BC}
+                                        src={BC2}
                                         className={"d-block w-100 mt-2 InfoImage "}
                                         height={"700"}
                                     />
