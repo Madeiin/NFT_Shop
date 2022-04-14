@@ -45,7 +45,7 @@ const NavBar = observer(() => {
                         <Button
                             variant={"outline-light"}
                             onClick={() => navigate(AUTH_ROUTE)}
-                        >ОЧко2
+                        >ОЧко3
                         </Button>
 
                     </Nav>
