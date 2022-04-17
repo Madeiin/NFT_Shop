@@ -14,6 +14,7 @@ class CarouselBox extends Component {
                             className={" w-100  "}
                             src={Teamjpg}
                             alt={"FrontEnd Команда"}
+                            height={1245}
                         />
                         <Carousel.Caption>
                             <div className={"DivTeam"}>
@@ -27,6 +28,7 @@ class CarouselBox extends Component {
                             className={"d-block w-100"}
                             src={Team2jpg}
                             alt={"BackEnd Команда"}
+                            height={1245}
                         />
                         <Carousel.Caption>
                             <div className={"DivTeam"}>
@@ -40,6 +42,7 @@ class CarouselBox extends Component {
                             className={"d-block w-100"}
                             src={Team3jpg}
                             alt={"БД Команда"}
+                            height={1245}
                         />
                         <Carousel.Caption>
                             <div className={"DivTeam"}>
@@ -53,6 +56,7 @@ class CarouselBox extends Component {
                                 className={"d-block w-100"}
                                 src={Officejpg}
                                 alt={"Офис команды"}
+                                height={1245}
                             />
                         <Carousel.Caption>
                             <div className={"DivTeam"}>
