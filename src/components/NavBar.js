@@ -7,7 +7,7 @@ import {
     ADMIN_ROUTE,
     AUTH_ROUTE,
     CONTACTS_ROUTE,
-    INFO_ROUTE,
+    INFO_ROUTE, PROFILE_ROUTE,
     SALES_ROUTE,
     SHOP_ROUTE
 } from "../utils/consts";
@@ -29,10 +29,10 @@ const NavBar = observer(() => {
                     <Nav className="ml-auto">
                         <Button
                             variant={"outline-light"}
-                            onClick={() => navigate(ADMIN_ROUTE)}
+                            onClick={() => navigate(PROFILE_ROUTE)}
                             className='me-2'
                         >
-                            Admin panel
+                            Profile
                         </Button>
                         <Button
                             variant={"outline-light"}

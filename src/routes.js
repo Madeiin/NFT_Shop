@@ -2,7 +2,7 @@ import {
     ABOUT_ROUTE,
     ADMIN_ROUTE,
     AUTH_ROUTE, CONTACTS_ROUTE, INFO_ROUTE,
-    NFT_ROUTE,
+    NFT_ROUTE, PROFILE_ROUTE,
     REGISTRATION_ROUTE,
     SALES_ROUTE,
     SHOP_ROUTE
@@ -16,6 +16,7 @@ import Sales from "./pages/Sales";
 import About from "./pages/About";
 import Contacts from "./pages/Contacts";
 import Info from "./pages/Info";
+import Profile from "./pages/Profile";
 
 
 
@@ -61,5 +62,9 @@ export const authRoutes = [
     {
     path: ADMIN_ROUTE,
     Component: Admin
+    },
+    {
+        path: PROFILE_ROUTE,
+        Component: Profile
     },
 ]
