@@ -1,10 +1,10 @@
 import React, {useContext} from 'react';
 import {Context} from "../index";
 import {Button, Container, Nav, Navbar} from "react-bootstrap";
-import {NavLink, useNavigate} from "react-router-dom";
+import {Link, NavLink, useNavigate} from "react-router-dom";
 import {
     ABOUT_ROUTE,
-    ADMIN_ROUTE,
+    ADMIN_ROUTE, ADVERT_ROUTE,
     AUTH_ROUTE,
     CONTACTS_ROUTE,
     INFO_ROUTE, PROFILE_ROUTE,
@@ -25,6 +25,8 @@ const NavBar = observer(() => {
                 <NavLink style={{color:'white'}} to={CONTACTS_ROUTE}>Contacts</NavLink>
                 <NavLink style={{color:'white'}} to={SALES_ROUTE}>Sales</NavLink>
                 <NavLink style={{color:'white'}} to={INFO_ROUTE}>Info</NavLink>
+                <Link to="/Advert"><h1 className="advert">Реклама</h1></Link>
+
                     {user.isAuth ?
                     <Nav className="ml-auto">
                         <Button

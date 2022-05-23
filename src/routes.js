@@ -1,6 +1,6 @@
 import {
     ABOUT_ROUTE,
-    ADMIN_ROUTE,
+    ADMIN_ROUTE, ADVERT_ROUTE,
     AUTH_ROUTE, CONTACTS_ROUTE, INFO_ROUTE,
     NFT_ROUTE, PROFILE_ROUTE,
     REGISTRATION_ROUTE,
@@ -17,6 +17,8 @@ import About from "./pages/About";
 import Contacts from "./pages/Contacts";
 import Info from "./pages/Info";
 import Profile from "./pages/Profile";
+import Advert from "./pages/Content";
+import Content from "./pages/Content";
 
 
 
@@ -53,6 +55,9 @@ export const publlcRoutes = [
         path: CONTACTS_ROUTE,
         Component: Contacts
     },
+
+
+
 
 
 
