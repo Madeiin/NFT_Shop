@@ -25,7 +25,7 @@ const NavBar = observer(() => {
                 <NavLink style={{color:'white'}} to={CONTACTS_ROUTE}>Contacts</NavLink>
                 <NavLink style={{color:'white'}} to={SALES_ROUTE}>Sales</NavLink>
                 <NavLink style={{color:'white'}} to={INFO_ROUTE}>Info</NavLink>
-                {user.isAuth ?
+                    {user.isAuth ?
                     <Nav className="ml-auto">
                         <Button
                             variant={"outline-light"}
